@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { CgClose } from "react-icons/cg";
+import { CgMenu } from "react-icons/cg";
 
 function Navbar() {
   return (
@@ -31,8 +31,8 @@ function Navbar() {
                     <li className="ml-10 text- uppercase hover:border-b">contact</li>
                 </Link>
             </ul>
-            <div>
-                <CgClose />
+            <div className="md:hidden">
+                <CgMenu size={25}/>
             </div>
         </div>
       </div>
