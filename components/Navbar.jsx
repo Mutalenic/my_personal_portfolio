@@ -67,6 +67,9 @@ function Navbar() {
                 <li className="py-4">contact</li>
                 </Link>
             </ul>
+            <div className="pt-40">
+                <p className="uppercase trackin-widest text-[#5651e5]">LET&#39;S CONNECT</p>
+            </div>
         </div>
         </div>
         </div>
