@@ -49,8 +49,27 @@ function Navbar() {
                 <CgClose/>
             </div>
           </div>
+        <div className="flex flex-col py-10">
+            <ul className="uppercase">
+                <Link href="/">
+                <li className="py-4">Home</li>
+                </Link>
+                <Link href="/">
+                <li className="py-4">about</li>
+                </Link>
+                <Link href="/">
+                <li className="py-4">skills</li>
+                </Link>
+                <Link href="/">
+                <li className="py-4">project</li>
+                </Link>
+                <Link href="/">
+                <li className="py-4">contact</li>
+                </Link>
+            </ul>
         </div>
-      </div>
+        </div>
+        </div>
     </div>
   );
 }
