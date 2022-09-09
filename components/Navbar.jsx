@@ -1,7 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { CgClose, CgMenu } from "react-icons/cg";
+import { CgClose, CgMenu, CgMail } from "react-icons/cg";
+import {FaLinkedinIn, FaGithub} from "react-icons/fa";
+import {BsFillPersonLinesFill} from "react-icons/bs"
 
 function Navbar() {
   return (
@@ -69,7 +71,22 @@ function Navbar() {
             </ul>
             <div className="pt-40">
                 <p className="uppercase trackin-widest text-[#5651e5]">LET&#39;S CONNECT</p>
+                <div className="flex items-center justify-between my-4 w-full sm:w-[80% ]">
+                    <div className="rounded-full shadow-lg shadow-gray-300 p-3 cursor-pointer hover:scale:100 ease-in duration-300">
+                    <FaLinkedinIn/>
+                    </div>
+                    <div className="rounded-full shadow-lg shadow-gray-300 p-3 cursor-pointer hover:scale:100 ease-in duration-300">
+                    <FaGithub/>
+                    </div>
+                    <div className="rounded-full shadow-lg shadow-gray-300 p-3 cursor-pointer hover:scale:100 ease-in duration-300">
+                    <CgMail/>
+                    </div>
+                    <div className="rounded-full shadow-lg shadow-gray-300 p-3 cursor-pointer hover:scale:100 ease-in duration-300">
+                    <BsFillPersonLinesFill/>
+                    </div>
+                </div>
             </div>
+
         </div>
         </div>
         </div>
