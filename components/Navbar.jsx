@@ -15,19 +15,19 @@ function Navbar() {
         <div>
             <ul className="hidden md:flex">
                 <Link href="/">
-                    <li className="ml-10 text-sm text-white uppercase hover:border-b">Home</li>
+                    <li className="ml-10 text- uppercase hover:border-b ">Home</li>
                 </Link>
                 <Link href="/">
-                    <li className="ml-10 text-sm text-white uppercase hover:border-b">about</li>
+                    <li className="ml-10 text- uppercase hover:border-b">about</li>
                 </Link>
                 <Link href="/">
-                    <li className="ml-10 text-sm text-white uppercase hover:border-b">skills</li>
+                    <li className="ml-10 text- uppercase hover:border-b">skills</li>
                 </Link>
                 <Link href="/">
-                    <li className="ml-10 text-sm text-white uppercase hover:border-b">project</li>
+                    <li className="ml-10 text- uppercase hover:border-b">project</li>
                 </Link>
                 <Link href="/">
-                    <li className="ml-10 text-sm text-white uppercase hover:border-b">contact</li>
+                    <li className="ml-10 text- uppercase hover:border-b">contact</li>
                 </Link>
             </ul>
         </div>
