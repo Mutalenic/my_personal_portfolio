@@ -13,7 +13,7 @@ function Navbar() {
           height="50"
         />
         <div>
-            <ul>
+            <ul className="hidden md:flex">
                 <Link href="/">
                     <li className="ml-10 text-sm text-white uppercase hover:border-b">Home</li>
                 </Link>
