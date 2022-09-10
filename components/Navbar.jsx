@@ -19,7 +19,7 @@ const Navbar = () => {
           width="125"
           height="50"
         />
-        <div>
+        <div className="flex items-center">
           <ul className="hidden md:flex">
             <Link href="/">
               <li className="ml-10 text- uppercase hover:border-b ">Home</li>
