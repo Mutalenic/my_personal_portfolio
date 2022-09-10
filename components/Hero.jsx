@@ -20,7 +20,7 @@ function Hero() {
             appications.
           </p>
 
-          <div className=" flex items-center justify-center gap-10 max-w[330px] m-auto py-10">
+          <div className=" flex items-center justify-center gap-8 max-w[330px] m-auto py-10">
             <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale:100 ease-in duration-300">
               <FaLinkedinIn />
             </div>
