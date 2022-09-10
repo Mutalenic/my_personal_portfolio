@@ -11,10 +11,10 @@ function Hero() {
       <div className="max-w-[1240px] w-full h-ful mx-auto p-2 flex justify-center items-center">
         <div>
           <h1 className="tex-sm tracking-widest text-gray-600">
-            Hello, my name is
-            <span className="text-[#1e1a95]">Nicholas Mutale</span>
+            Hi, my name is
+            <span className="text-[#1e1a95]"> Nicholas Mutale</span>
           </h1>
-          <h1>I &#39;m a Full Stack Web Developer</h1>
+          <h2>I &#39;m a Full Stack Web Developer</h2>
           <p>
             I'm passionate about designing and developing powerful modern web
             appications.
