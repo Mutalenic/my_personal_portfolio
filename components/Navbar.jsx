@@ -91,19 +91,19 @@ const Navbar = () => {
           <div className="flex flex-col py-10">
             <ul className="uppercase">
               <Link href="/">
-                <li className="py-4">Home</li>
+                <li onClick={()=> setNav(false)} className="py-4">Home</li>
               </Link>
               <Link href="#about">
-                <li className="py-4">about</li>
+                <li onClick={()=> setNav(false)} className="py-4">about</li>
               </Link>
               <Link href="#skills">
-                <li className="py-4">skills</li>
+                <li onClick={()=> setNav(false)} className="py-4">skills</li>
               </Link>
               <Link href="#work">
-                <li className="py-4">project</li>
+                <li onClick={()=> setNav(false)} className="py-4">project</li>
               </Link>
               <Link href="#contact">
-                <li className="py-4">contact</li>
+                <li onClick={()=> setNav(false)} className="py-4">contact</li>
               </Link>
             </ul>
             <div className="pt-40">
