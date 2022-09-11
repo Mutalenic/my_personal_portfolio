@@ -2,7 +2,6 @@ import React from "react";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { CgMail } from "react-icons/cg";
-// import CgMail from "react-icons/cg";
 
 function Hero() {
   return (
@@ -12,11 +11,15 @@ function Hero() {
           <h1 className="py-4 text-gray-700">
             Hi, I&#39;m <span className="text-[#1e1a95]">Nicholas</span>
           </h1>
-          <h1 className="py-2 text-gray-700">a Full Stack Web Developer</h1>
+          <h1 className="py-2 text-gray-700">A Full Stack Web Developer</h1>
           <p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
-            I&#39;m focused on building responsive front-end web applications
-            while learning back-end technologies.
+            I love building both frontend and back-end websites and web apps
+            that are user friendly.Checkout some of my work and let me build
+            your next project.
           </p>
+          <div className="py-3 text-gray-400">
+            <p>Let&#39;s chat!</p>
+          </div>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
               <FaLinkedinIn />
