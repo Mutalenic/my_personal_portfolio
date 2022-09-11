@@ -20,21 +20,28 @@ function Work() {
             title="Airquality"
             backgroundImg={airquality}
             projectUrl="/"
+            techStack="React"
           />
            <WorkItem
             title="Airquality"
             backgroundImg={digiBudgetApp}
             projectUrl="/"
+            techStack="React"
+
           />
            <WorkItem
             title="Airquality"
             backgroundImg={moviespace}
             projectUrl="/"
+            techStack="React"
+
           />
            <WorkItem
             title="Airquality"
             backgroundImg={spcetravellers}
             projectUrl="/"
+            techStack="React"
+
           />
         </div>
       </div>
