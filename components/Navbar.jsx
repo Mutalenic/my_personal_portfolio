@@ -27,15 +27,17 @@ const Navbar = () => {
   return (
     <div className={shadow ? "fixed w-full h-20 shadow-xl z-[100]" : "fixed w-full h-20 z-[100]"}>
       <div className="flex justify-between item-center w-full h-full px-2 2xl:px-16">
+        <Link href="/">
         <Image
           src="/../public/assets/logo.png"
           alt="Logo"
           width="125"
           height="50"
         />
+        </Link>
         <div className="flex items-center">
           <ul className="hidden md:flex">
-            <Link href="/#home">
+            <Link href="/">
               <li className="ml-10 text- uppercase hover:border-b ">Home</li>
             </Link>
             <Link href="/#about">
@@ -71,12 +73,14 @@ const Navbar = () => {
           }
         >
           <div className="flex w-full items-center justify-between">
+            <Link href="/">
             <Image
               src="/../public/assets/logo.png"
               alt="logo"
               width="75"
               height="40"
             />
+              </Link>
             <div
               onClick={handleNav}
               className="rounded-full shadow-lg shadow-gray-300 p-3 cursor-pointer"
@@ -89,16 +93,16 @@ const Navbar = () => {
               <Link href="/">
                 <li className="py-4">Home</li>
               </Link>
-              <Link href="/">
+              <Link href="#about">
                 <li className="py-4">about</li>
               </Link>
-              <Link href="/">
+              <Link href="#skills">
                 <li className="py-4">skills</li>
               </Link>
-              <Link href="/">
+              <Link href="#work">
                 <li className="py-4">project</li>
               </Link>
-              <Link href="/">
+              <Link href="#contact">
                 <li className="py-4">contact</li>
               </Link>
             </ul>
