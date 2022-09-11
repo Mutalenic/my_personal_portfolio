@@ -19,7 +19,7 @@ function Work() {
           <WorkItem
             title="Airquality"
             backgroundImg={airquality}
-            projectUrl="/"
+            projectUrl="/airquality"
             techStack="React"
           />
            <WorkItem
