@@ -9,7 +9,7 @@ import airquality from "../public/assets/projects/airquality.png";
 
 function Work() {
   return (
-    <div className="w-full">
+    <div id="work" className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
         <p className="text-xl tracking-widest uppercase text-[##1e1a95]">
           Projects

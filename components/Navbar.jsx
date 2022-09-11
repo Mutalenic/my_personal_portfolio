@@ -35,19 +35,19 @@ const Navbar = () => {
         />
         <div className="flex items-center">
           <ul className="hidden md:flex">
-            <Link href="/">
+            <Link href="/#home">
               <li className="ml-10 text- uppercase hover:border-b ">Home</li>
             </Link>
-            <Link href="/">
+            <Link href="/#about">
               <li className="ml-10 text- uppercase hover:border-b">about</li>
             </Link>
-            <Link href="/">
+            <Link href="/#skills">
               <li className="ml-10 text- uppercase hover:border-b">skills</li>
             </Link>
-            <Link href="/">
+            <Link href="/#work">
               <li className="ml-10 text- uppercase hover:border-b">project</li>
             </Link>
-            <Link href="/">
+            <Link href="/#contact">
               <li className="ml-10 text- uppercase hover:border-b">contact</li>
             </Link>
           </ul>
