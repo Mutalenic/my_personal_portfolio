@@ -27,17 +27,14 @@ export default function Contact() {
                       Nicholas Mutale
                       </h2>
                       <p>Full Stack Developer</p>
-                      <p>
+                      <p className="py-4">
                         I am available for freelance or full-time positions. Contact me and let&#39;s talk.
                       </p>
                   </div>
-                </div>
-              </div>
               <div>
                 <p className="uppercase pt-8">Connect With Me</p>
               </div>
-              <div className="flex items-center justify-between">
-              <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
+              <div className="flex items-center justify-between gap-5max-w-[330px] m-auto py-4 ">
             <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
               <FaLinkedinIn />
             </div>
@@ -53,9 +50,10 @@ export default function Contact() {
             </div>
           </div>
               </div>
+                </div>
+              </div>
 
             </div>
         </div>
-    </div>
   );
 };
