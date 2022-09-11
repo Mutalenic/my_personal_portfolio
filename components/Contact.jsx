@@ -109,15 +109,14 @@ export default function Contact() {
             </div>
           </div>
         </div>
-        <div className='flex justify-center py-12'>
+        <div className="flex justify-center py-12">
           <Link href="/">
             <a>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
-              <CgChevronDoubleUp className='text-[#5651e5]'size={30}  />
-            </div>
+              <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+                <CgChevronDoubleUp className="text-[#0f07fb]" size={30} />
+              </div>
             </a>
-            </Link>
-          
+          </Link>
         </div>
       </div>
     </div>
