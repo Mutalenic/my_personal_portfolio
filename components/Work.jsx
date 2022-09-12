@@ -39,7 +39,7 @@ function Work() {
            <WorkItem
             title="Airquality"
             backgroundImg={spcetravellers}
-            projectUrl="/"
+            projectUrl="/spacetraveller"
             techStack="React"
 
           />
