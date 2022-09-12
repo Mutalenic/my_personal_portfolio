@@ -22,14 +22,21 @@ function Hero() {
           </div>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <FaLinkedinIn />
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <FaGithub />
+              <a href="https://www.linkedin.com/in/nicomutale/">
+                <FaLinkedinIn />
+              </a>
             </div>
 
             <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <CgMail />
+              <a href="https://github.com/mutalenic">
+                <FaGithub />
+              </a>
+            </div>
+
+            <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+              <a href="mailto:nicomutale@gmail.com">
+                <CgMail />
+              </a>
             </div>
             <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
               <BsFillPersonLinesFill />

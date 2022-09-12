@@ -39,14 +39,20 @@ export default function Contact() {
               </div>
               <div className="flex items-center justify-between gap-5max-w-[330px] m-auto py-4 ">
                 <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                  <FaLinkedinIn />
+                  <a href="https://www.linkedin.com/in/nicomutale/">
+                    <FaLinkedinIn />
+                  </a>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                  <FaGithub />
+                  <a href="https://github.com/mutalenic">
+                    <FaGithub />
+                  </a>
                 </div>
 
                 <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                  <CgMail />
+                  <a href="mailto:nicomutale@gmail.com">
+                    <CgMail />
+                  </a>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                   <BsFillPersonLinesFill />
@@ -57,7 +63,10 @@ export default function Contact() {
           {/* right side */}
           <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
             <div className="p-4 ">
-              <form method="POST" action="https://getform.io/f/d7e77dee-2a60-4670-8add-ed3aed88a13f">
+              <form
+                method="POST"
+                action="https://getform.io/f/d7e77dee-2a60-4670-8add-ed3aed88a13f"
+              >
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">Name</label>
