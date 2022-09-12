@@ -4,7 +4,7 @@ import React from "react";
 import { RiRadioButtonFill } from "react-icons/ri";
 import digibudgetImg from "../public/assets/projects/DigiApp.png";
 
-function digibudgetapp() {
+function moviespace() {
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
@@ -65,4 +65,4 @@ function digibudgetapp() {
   );
 }
 
-export default digibudgetapp;
+export default moviespace;
