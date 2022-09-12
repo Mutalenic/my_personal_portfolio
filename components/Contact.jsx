@@ -35,7 +35,7 @@ export default function Contact() {
                 </p>
               </div>
               <div>
-                <p className="uppercase pt-8">Connect With Me</p>
+                <p className="uppercase pt-8 text-[#1e1a95]">Connect With Me</p>
               </div>
               <div className="flex items-center justify-between gap-5max-w-[330px] m-auto py-4 ">
                 <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300">

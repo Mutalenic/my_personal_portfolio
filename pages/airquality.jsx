@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import {RiRadioButtonFill} from "react-icons/ri";
+import { RiRadioButtonFill } from "react-icons/ri";
 import airqualityImg from "../public/assets/projects/airquality.png";
 
 function airquality() {
@@ -23,38 +23,42 @@ function airquality() {
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4">
-            <p>Project</p>
-            <h3>Overview</h3>
-            <p>
-            This is an app for tracking air pollution in a country .In this web app you will be able to see what the current air quality data is and also can track the data of air pollution based on gas percentage of air
-
-
-            </p>
-            <button className="px-8 py-2 mt-4 mr-8">Demo</button>
-            <button className="px-8 py-2 mt-4 mr-8">Code</button>
+          <p>Project</p>
+          <h3>Overview</h3>
+          <p>
+            This is an app for tracking air pollution in a country .In this web
+            app you will be able to see what the current air quality data is and
+            also can track the data of air pollution based on gas percentage of
+            air
+          </p>
+          <a href="https://deploy-preview-2--stately-kashata-1db13f.netlify.app/">
+          <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+          </a>
+          <a href="https://github.com/Mutalenic/air-quality-data">
+          <button className="px-8 py-2 mt-4 mr-8">Code</button></a>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
-            <div className="p-2">
-                <p className="text-center font-bold pb-2">Technologies</p>
-                <div className="grid grid-cols-3 md:grid-cols-1">
-                    <p className="text-gray-600 py-2 flex items-center">
-                        <RiRadioButtonFill className="p-1"/> React
-                    </p>
-                    <p className="text-gray-600 py-2 flex items-center">
-                        <RiRadioButtonFill className="p-1"/> JavaScript
-                    </p>
-                    <p className="text-gray-600 py-2 flex items-center">
-                        <RiRadioButtonFill className="p-1"/> CSS
-                    </p>
-                    <p className="text-gray-600 py-2 flex items-center">
-                        <RiRadioButtonFill className="p-1"/> Redux
-                    </p> 
-                </div>
+          <div className="p-2">
+            <p className="text-center font-bold pb-2">Technologies</p>
+            <div className="grid grid-cols-3 md:grid-cols-1">
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="p-1" /> React
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="p-1" /> JavaScript
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="p-1" /> CSS
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="p-1" /> Redux
+              </p>
             </div>
-
+          </div>
         </div>
         <Link href="/#work">
-            <p className="underline cursor-pointer">Back</p></Link>
+          <p className="underline cursor-pointer">Back</p>
+        </Link>
       </div>
     </div>
   );
