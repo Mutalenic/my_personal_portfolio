@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const About = () => {
@@ -27,7 +28,7 @@ const About = () => {
             recently; HTML, CSS, JavaScript, React, Redux, Ruby, Ruby on rails
           </p>
           <p className="py-8 pt-8 text-gray-600 underline cursor-pointer">
-            Checkout some of my latest projects
+            <Link href="/#work">Checkout some of my latest projects</Link>
           </p>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
