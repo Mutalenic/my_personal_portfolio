@@ -30,10 +30,10 @@ function Work() {
 
           />
            <WorkItem
-            title="Airquality"
+            title="Moviespace"
             backgroundImg={moviespace}
-            projectUrl="/"
-            techStack="React"
+            projectUrl="/moviespace"
+            techStack="#JavaScript #CSS #HTML"
 
           />
            <WorkItem
