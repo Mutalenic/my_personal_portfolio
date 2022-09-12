@@ -31,10 +31,10 @@ function spacetraveller() {
             about a topic that we liked and then built the webapp around it. The
             webapp has 2 user interfaces.{" "}
           </p>
-          <a href="https://natig25.github.io/MovieSpace/">
+          <a href="https://6262b54ee8f3d52d5200c258--tiny-bavarois-1b6015.netlify.app/">
             <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           </a>
-          <a href="https://github.com/Mutalenic/JS-capstone">
+          <a href="https://github.com/Mutalenic/space_travelers_hub">
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
         </div>
