@@ -40,7 +40,7 @@ function Work() {
             title="Airquality"
             backgroundImg={spcetravellers}
             projectUrl="/spacetraveller"
-            techStack="React"
+            techStack="#React #Redux #CSS"
 
           />
         </div>

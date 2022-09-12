@@ -18,7 +18,7 @@ function spacetraveller() {
         />
         <div className=" text-white z-10 p-2 absolute top-[70%] max-w-[1240px] w-full left-[50%] translate-x-[-50%] translate-y-[-50%]">
           <h2 className="py-2">Moviespace App</h2>
-          <h3>JavaScript / CSS / HTML</h3>
+          <h3>React / Redux / CSS</h3>
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
@@ -43,19 +43,16 @@ function spacetraveller() {
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="p-1" /> JavaScript
+                <RiRadioButtonFill className="p-1" /> ReactJs
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="p-1" /> Redux
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="p-1" /> CSS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="p-1" /> TVMAZE API
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="p-1" /> Webpack
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="p-1" /> HTML
+                <RiRadioButtonFill className="p-1" /> SPACEX API
               </p>
             </div>
           </div>
