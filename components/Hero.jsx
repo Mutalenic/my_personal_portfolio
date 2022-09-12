@@ -1,7 +1,6 @@
 import React from "react";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
-import { CgMail } from "react-icons/cg";
+import { CgMail, CgTwitter } from "react-icons/cg";
 
 function Hero() {
   return (
@@ -39,7 +38,7 @@ function Hero() {
               </a>
             </div>
             <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <BsFillPersonLinesFill />
+              <a href="https://twitter.com/nicomutale"><CgTwitter /></a>
             </div>
           </div>
         </div>

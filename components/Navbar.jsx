@@ -1,40 +1,44 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
-import { CgClose, CgMenu, CgMail } from "react-icons/cg";
+import { CgClose, CgMenu, CgMail, CgTwitter } from "react-icons/cg";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
-import { useRouter } from "next/router";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
- 
-  useEffect(()=> {
+
+  useEffect(() => {
     const navShadow = () => {
-      if (window.scrollY >= 90){
-        setShadow(true)
-      }else{
-        setShadow(false)
+      if (window.scrollY >= 90) {
+        setShadow(true);
+      } else {
+        setShadow(false);
       }
     };
     window.addEventListener("scroll", navShadow);
-  },[])
-
+  }, []);
 
   const handleNav = () => {
     setNav(!nav);
   };
   return (
-    <div id="navbar" className={shadow ? "fixed w-full h-20 shadow-xl z-[100]" : "fixed w-full h-20 z-[100]"}>
+    <div
+      id="navbar"
+      className={
+        shadow
+          ? "fixed w-full h-20 shadow-xl z-[100]"
+          : "fixed w-full h-20 z-[100]"
+      }
+    >
       <div className="flex justify-between item-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
-        <Image
-          src="/../public/assets/logo.png"
-          alt="Logo"
-          width="125"
-          height="50"
-        />
+          <Image
+            src="/../public/assets/logo.png"
+            alt="Logo"
+            width="125"
+            height="50"
+          />
         </Link>
         <div className="flex items-center">
           <ul className="hidden md:flex">
@@ -75,13 +79,13 @@ const Navbar = () => {
         >
           <div className="flex w-full items-center justify-between">
             <Link href="/">
-            <Image
-              src="/../public/assets/logo.png"
-              alt="logo"
-              width="75"
-              height="40"
-            />
-              </Link>
+              <Image
+                src="/../public/assets/logo.png"
+                alt="logo"
+                width="75"
+                height="40"
+              />
+            </Link>
             <div
               onClick={handleNav}
               className="rounded-full shadow-lg shadow-gray-300 p-3 cursor-pointer"
@@ -92,19 +96,29 @@ const Navbar = () => {
           <div className="flex flex-col py-10">
             <ul className="uppercase">
               <Link href="/">
-                <li onClick={()=> setNav(false)} className="py-4">Home</li>
+                <li onClick={() => setNav(false)} className="py-4">
+                  Home
+                </li>
               </Link>
               <Link href="/#about">
-                <li onClick={()=> setNav(false)} className="py-4">about</li>
+                <li onClick={() => setNav(false)} className="py-4">
+                  about
+                </li>
               </Link>
               <Link href="/#skills">
-                <li onClick={()=> setNav(false)} className="py-4">skills</li>
+                <li onClick={() => setNav(false)} className="py-4">
+                  skills
+                </li>
               </Link>
               <Link href="/#work">
-                <li onClick={()=> setNav(false)} className="py-4">project</li>
+                <li onClick={() => setNav(false)} className="py-4">
+                  project
+                </li>
               </Link>
               <Link href="/#contact">
-                <li onClick={()=> setNav(false)} className="py-4">contact</li>
+                <li onClick={() => setNav(false)} className="py-4">
+                  contact
+                </li>
               </Link>
             </ul>
             <div className="pt-40">
@@ -113,20 +127,24 @@ const Navbar = () => {
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80% ]">
                 <a href="https://www.linkedin.com/in/nicomutale/">
-                <div className="rounded-full shadow-lg shadow-gray-300 p-3 cursor-pointer hover:scale:100 ease-in duration-300">
-                  <FaLinkedinIn />
-                </div>
+                  <div className="rounded-full shadow-lg shadow-gray-300 p-3 cursor-pointer hover:scale:100 ease-in duration-300">
+                    <FaLinkedinIn />
+                  </div>
                 </a>
                 <a href="https://github.com/mutalenic">
+                  <div className="rounded-full shadow-lg shadow-gray-300 p-3 cursor-pointer hover:scale:100 ease-in duration-300">
+                    <FaGithub />
+                  </div>
+                </a>
                 <div className="rounded-full shadow-lg shadow-gray-300 p-3 cursor-pointer hover:scale:100 ease-in duration-300">
-                  <FaGithub />
-                </div>
+                  <a href="maito:nicomutale@gmail.com">
+                    <CgMail />
                   </a>
-                <div className="rounded-full shadow-lg shadow-gray-300 p-3 cursor-pointer hover:scale:100 ease-in duration-300">
-                  <CgMail />
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-300 p-3 cursor-pointer hover:scale:100 ease-in duration-300">
-                  <BsFillPersonLinesFill />
+                  <a href="https://twitter.com/nicomutale">
+                    <CgTwitter />
+                  </a>
                 </div>
               </div>
             </div>
@@ -135,6 +153,6 @@ const Navbar = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Navbar;

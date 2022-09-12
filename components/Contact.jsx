@@ -1,8 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { BsFillPersonLinesFill } from "react-icons/bs";
-import { CgChevronDoubleUp, CgMail } from "react-icons/cg";
+import { CgChevronDoubleUp, CgMail, CgTwitter } from "react-icons/cg";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 export default function Contact() {
@@ -55,7 +54,7 @@ export default function Contact() {
                   </a>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                  <BsFillPersonLinesFill />
+              <a href="https://twitter.com/nicomutale"><CgTwitter /></a>                
                 </div>
               </div>
             </div>
