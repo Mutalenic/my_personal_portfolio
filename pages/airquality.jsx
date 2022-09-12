@@ -42,16 +42,19 @@ function airquality() {
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="p-1" /> React
+                <RiRadioButtonFill className="p-1" /> ReactJs
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="p-1" /> JavaScript
+                <RiRadioButtonFill className="p-1" /> Redux
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="p-1" /> CSS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="p-1" /> Redux
+                <RiRadioButtonFill className="p-1" /> Restcountries API
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="p-1" /> Openweathermap API
               </p>
             </div>
           </div>

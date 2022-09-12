@@ -31,3 +31,7 @@ html {
     @apply shadow-xl shadow-gray-500 rounded-xl uppercase bg-gradient-to-r from-[#332cec] to-[#7f88f2]
 }
 }
+
+#navbar {
+  background-color: #fff0df;
+}
