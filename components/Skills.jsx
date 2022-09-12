@@ -1,5 +1,5 @@
-import Image from "next/image";
 import React from "react";
+import Image from "next/image";
 import htmlImg from "../public/assets/html.png";
 import cssImg from "../public/assets/css.png";
 import javascriptImg from "../public/assets/javascript.png";
