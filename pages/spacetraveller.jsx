@@ -26,10 +26,7 @@ function spacetraveller() {
           <p>Project</p>
           <h3>Overview</h3>
           <p>
-            This JavaScript capstone project is about building a web application
-            based on an external API. We selected an API that provides data
-            about a topic that we liked and then built the webapp around it. The
-            webapp has 2 user interfaces.{" "}
+          Real live data from the SpaceX API. A web application built with React and Redux for a company that provides commercial and scientific space travel services. The application allows users to book rockets and join selected space missions.
           </p>
           <a href="https://6262b54ee8f3d52d5200c258--tiny-bavarois-1b6015.netlify.app/">
             <button className="px-8 py-2 mt-4 mr-8">Demo</button>
