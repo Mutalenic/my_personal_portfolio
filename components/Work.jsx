@@ -17,13 +17,13 @@ function Work() {
         <h2>What I&#39;v Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <WorkItem
-            title="Airquality"
+            title="Air Quality"
             backgroundImg={airquality}
             projectUrl="/airquality"
             techStack="React"
           />
            <WorkItem
-            title="DigiBudget App"
+            title="Digi-Budget"
             backgroundImg={digiBudgetApp}
             projectUrl="/digibudgetapp"
             techStack="#Ruby #Ruby on Rails #Tailwindcss"
@@ -37,7 +37,7 @@ function Work() {
 
           />
            <WorkItem
-            title="Airquality"
+            title="Space Travelers Hub"
             backgroundImg={spcetravellers}
             projectUrl="/spacetraveller"
             techStack="#React #Redux #CSS"

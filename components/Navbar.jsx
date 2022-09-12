@@ -93,16 +93,16 @@ const Navbar = () => {
               <Link href="/">
                 <li onClick={()=> setNav(false)} className="py-4">Home</li>
               </Link>
-              <Link href="#about">
+              <Link href="/#about">
                 <li onClick={()=> setNav(false)} className="py-4">about</li>
               </Link>
-              <Link href="#skills">
+              <Link href="/#skills">
                 <li onClick={()=> setNav(false)} className="py-4">skills</li>
               </Link>
-              <Link href="#work">
+              <Link href="/#work">
                 <li onClick={()=> setNav(false)} className="py-4">project</li>
               </Link>
-              <Link href="#contact">
+              <Link href="/#contact">
                 <li onClick={()=> setNav(false)} className="py-4">contact</li>
               </Link>
             </ul>
