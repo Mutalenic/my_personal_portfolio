@@ -3,6 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { CgChevronDoubleUp, CgMail, CgTwitter } from "react-icons/cg";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import getintouch from "../public/assets/getintouch.jpg"
 
 export default function Contact() {
   return (
@@ -19,7 +20,7 @@ export default function Contact() {
               <div>
                 <Image
                   className="rounded-xl hover:scale-105 ease-in duration-300"
-                  src="/../public/assets/getintouch.jpg"
+                  src={ getintouch }
                   alt="get in touch"
                   width="430%"
                   height="300%"

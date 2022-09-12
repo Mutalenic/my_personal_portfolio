@@ -3,6 +3,7 @@ import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { CgClose, CgMenu, CgMail, CgTwitter } from "react-icons/cg";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+import Logo from "../public/assets/logo.png"
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -80,7 +81,7 @@ const Navbar = () => {
           <div className="flex w-full items-center justify-between">
             <Link href="/">
               <Image
-                src="/../public/assets/logo.png"
+                src={ Logo }
                 alt="logo"
                 width="75"
                 height="40"
