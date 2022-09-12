@@ -23,10 +23,10 @@ function Work() {
             techStack="React"
           />
            <WorkItem
-            title="Airquality"
+            title="DigiBudget App"
             backgroundImg={digiBudgetApp}
-            projectUrl="/"
-            techStack="React"
+            projectUrl="/digibudgetapp"
+            techStack="#Ruby #Ruby on Rails #Tailwindcss"
 
           />
            <WorkItem
