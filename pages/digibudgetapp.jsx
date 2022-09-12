@@ -14,11 +14,11 @@ function digibudgetapp() {
           layout="fill"
           objectFit="cover"
           src={digibudgetImg}
-          alt="airquality image"
+          alt="digibudget image"
         />
         <div className=" text-white z-10 p-2 absolute top-[70%] max-w-[1240px] w-full left-[50%] translate-x-[-50%] translate-y-[-50%]">
-          <h2 className="py-2">Air Quality</h2>
-          <h3>React JS/ CSS/ redux</h3>
+          <h2 className="py-2">Digi Budget App</h2>
+          <h3>Ruby / Ruby on Rails/ Tailwindcss</h3>
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
@@ -30,8 +30,12 @@ function digibudgetapp() {
 
 
             </p>
+            <a href="https://joli-choucroute-65855.herokuapp.com/">
             <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+            </a>
+            <a href="https://github.com/Mutalenic/digi_budget">
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
+            </a>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
             <div className="p-2">
