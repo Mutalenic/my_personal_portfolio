@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { RiRadioButtonFill } from "react-icons/ri";
-import digibudgetImg from "../public/assets/projects/DigiApp.png";
+import moviespaceImg from "../public/assets/projects/moviespace2.png";
 
 function moviespace() {
   return (
@@ -13,7 +13,7 @@ function moviespace() {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={digibudgetImg}
+          src={moviespaceImg}
           alt="digibudget image"
         />
         <div className=" text-white z-10 p-2 absolute top-[70%] max-w-[1240px] w-full left-[50%] translate-x-[-50%] translate-y-[-50%]">
