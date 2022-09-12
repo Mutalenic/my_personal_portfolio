@@ -25,12 +25,7 @@ function moviespace() {
         <div className="col-span-4">
           <p>Project</p>
           <h3>Overview</h3>
-          <p>
-            The DigiBudget App is a mobile web application that allows the user
-            to manage his/her budget: they have a list of transactions
-            associated with a category, so that the user can see how much money
-            they spend and on a particular category.
-          </p>
+          <p>This JavaScript capstone project is about building a web application based on an external API. We selected an API that provides data about a topic that we liked and then built the webapp around it. The webapp has 2 user interfaces.         </p>
           <a href="https://joli-choucroute-65855.herokuapp.com/">
             <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           </a>
