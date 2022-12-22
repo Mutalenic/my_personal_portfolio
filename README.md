@@ -1,5 +1,5 @@
 # Personal Portfolio
-> This is my personal portfolio website.
+
 ![portfolioImg](https://user-images.githubusercontent.com/19844175/189676701-581367b1-0eb2-4b02-8a34-3f33116324b4.png)
 
 ## Built With
